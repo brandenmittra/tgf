@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tgf</title>
+  <title>The Good Folks - Good Things, Coming Soon</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content=" - We're creating things to help charities prosper, and encouraging people to do good for the sake of doing good." />
+	<meta property="og:type" content="company" />
+	<meta property="og:site_name" content=" - We're creating things to help charities prosper, and encouraging people to do good for the sake of doing good." />
+	<meta property="og:description" content="<p>Leave your email address to join our mailing list.  We'll keep you up to date with developments of products and services that will help you raise more money.</p> 
+	" />
+	<meta property="og:url" content="www.thegoodfolks.org" />
+	<meta property="og:image" content="https://launchrock-assets.s3.amazonaws.com/facebook-files/F5DC4NGD_1396216030055.png?_=0" />
 </head>
 <body>
-
-<%= yield %>
+	<%= render 'layouts/header' %>
+		<div class="wrapper">
+			<div class="container">
+				<%= yield %>
+			</div>
+		</div>
+		<div class="push"></div>
+			<%= render 'layouts/footer' %>
 
 </body>
 </html>

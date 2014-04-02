@@ -11,6 +11,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'simple_form'
 gem 'mail_form'
+gem 'newrelic_rpm'
 
 group :development, :test do
      gem 'sqlite3'

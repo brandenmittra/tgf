@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
+
+$body-bg: #F1F1F1;
+$font-family-sans-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;$navbar-height: 45px;
+$navbar-bg: #fff;
+$navbar-link-color: #7f8c8d;
+$navbar-inverse-border: none;
+$brand-primary: #f39c12;
+$jumbotron-bg: transparent;
+
+@import 'bootstrap';
+
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer {
+		background-color: #fff;
+		padding: 50px;
+		text-align: center;
+}
+
+.push {
+	height: 200px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 45px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-top: 5px solid #2ecc71;
+    border-radius: 0px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron p {
+    font-size: 15px;
+}
