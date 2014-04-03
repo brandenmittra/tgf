@@ -82,5 +82,11 @@ $jumbotron-bg: transparent;
     outline: 0px none;
     color: #FFF;
     background-color: #2ecc71;
-    border-radius: 0px;
+    border-radius: 3px;
+    padding: 0.75em 1em;
+    line-height: 1;
+    display: inline-block;
+    margin: 0px 0px 0.5em;
+    text-align: center;
+    cursor: pointer;
 }
