@@ -9,11 +9,6 @@ $jumbotron-bg: transparent;
 
 @import 'bootstrap';
 
-
-.body{
-    background-image: url('assets/bg.jpg');    
-}
-
 .wrapper {
     min-height: 100%;
     height: auto !important;
@@ -55,7 +50,11 @@ $jumbotron-bg: transparent;
 }
 
 .jumbotron p {
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.marketing p {
+    font-size: 20px;    
 }
 
 .img-responsive {
