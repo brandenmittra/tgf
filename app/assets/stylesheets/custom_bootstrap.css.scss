@@ -65,22 +65,22 @@ $jumbotron-bg: transparent;
 }
 
 .btn-default {
-    color: #333;
-    background-color: #FFF;
-    border-color: #CCC;
-}
-
-.btn-default {
-    border: 1px solid #2ecc71;
-    outline: 0px none;
-    color: #FFF;
-    background-color: #2ecc71;
-    border-radius: 0px;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 0.75em 1em;
+    line-height: 1;
+    display: inline-block;
+    margin: 0px 0px 0.5em;
+    text-align: center;
+    cursor: pointer;
 }
 
 .btn-default:hover, .btn-default:focus {
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
-    background-color: transparent;
+    border: 2px solid #2ecc71;
+    outline: 0px none;
+    color: #FFF;
+    background-color: #2ecc71;
     border-radius: 0px;
 }
