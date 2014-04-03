@@ -63,3 +63,24 @@ $jumbotron-bg: transparent;
     max-width: 100%;
     height: auto;
 }
+
+.btn-default {
+    color: #333;
+    background-color: #FFF;
+    border-color: #CCC;
+}
+
+.btn-default {
+    border: 1px solid #2ecc71;
+    outline: 0px none;
+    color: #FFF;
+    background-color: #2ecc71;
+    border-radius: 0px;
+}
+
+.btn-default:hover, .btn-default:focus {
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    background-color: transparent;
+    border-radius: 0px;
+}
