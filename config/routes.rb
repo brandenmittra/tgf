@@ -1,4 +1,8 @@
 Tgf::Application.routes.draw do
+
+  match 'registration' => 'registration#new', :as => 'registration', :via => :get
+  match 'registration' => 'registration#create', :as => 'registration', :via => :post
+
   root "pages#home"  
   get "alternate" => "pages#alternate"
   # The priority is based upon order of creation: first created -> highest priority.
